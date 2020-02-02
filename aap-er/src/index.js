@@ -5,16 +5,17 @@ import * as serviceWorker from './serviceWorker';
 import styled from 'styled-components';
 //importing elements
 import Header from './Components/Header/header';
-
+import About from './Components/About/about';
+import Register from './Components/Reservation/reserve';
 //stylying pages
 const AAP = styled.div`
 background-color: black;
-font-family: 'Sigmar One', cursive;
-color: #8a0303;
 `
 ReactDOM.render(
     <AAP>
         <Header />
+        <About />
+        <Register />
     </AAP> ,
     
     document.getElementById('root'));
